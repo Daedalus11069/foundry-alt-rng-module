@@ -101,7 +101,7 @@ export default defineConfig({
     lib: {
       entry: "./src/module.js",
       formats: ["es"],
-      fileName: "scripts/module.js"
+      fileName: "scripts/module"
     }
   },
   // Necessary when using the dev server for top-level await usage inside of TRL.
