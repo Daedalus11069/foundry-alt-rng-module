@@ -111,13 +111,6 @@ export default defineConfig({
     }
   },
   plugins: [
-    vue({
-      template: {
-        transformAssetUrls: {
-          img: []
-        }
-      }
-    }),
     {
       name: "vite-plugin-prebuild",
       buildStart() {
@@ -127,7 +120,6 @@ export default defineConfig({
         ModuleData.download = `https://github.com/Daedalus11069/${PackageData.name}/releases/download/v${PackageData.version}/${ModuleData.id}_${PackageData.version}.zip`;
       }
     },
-    tailwindcss(),
     generateFile([
       {
         type: "template",
