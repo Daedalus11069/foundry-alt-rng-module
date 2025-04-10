@@ -116,7 +116,7 @@ export default defineConfig({
       buildStart() {
         delete ModuleData.scripts;
         ModuleData.version = PackageData.version;
-        ModuleData.esmodules = ["scripts/alt-rng.js"];
+        ModuleData.esmodules = ["scripts/module.js"];
         ModuleData.download = `https://github.com/Daedalus11069/${PackageData.name}/releases/download/v${PackageData.version}/${ModuleData.id}_${PackageData.version}.zip`;
       }
     },
