@@ -1,0 +1,19 @@
+{
+  "id": "alt-rng",
+  "title": "Alternate Random Number Generator",
+  "description": "",
+  "authors": [
+    {
+      "name": "Daedalus11069"
+    }
+  ],
+  "version": "auto-replaced",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "url": "auto-replaced",
+  "manifest": "aut-replaced",
+  "download": "auto-replaced"
+}

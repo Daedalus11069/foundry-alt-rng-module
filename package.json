@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "foundry-alt-rng-module",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@league-of-foundry-developers/foundry-vtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#12.331.1-beta",
+    "vite": "6.0.1",
+    "vite-plugin-generate-file": "^0.2.0"
+  }
+}
